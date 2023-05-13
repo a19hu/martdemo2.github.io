@@ -76,7 +76,7 @@ z-index: 22;
     filter: invert();
    
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 490px){
     .logo img {
         width: 100px;
         height: 70px;
