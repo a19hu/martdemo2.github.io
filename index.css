@@ -40,8 +40,8 @@ z-index: 22;
     
 }
 .searchbar img{
-    height: 30px;
-    width: 60px;
+    height: 35px;
+    width: 40px;
     cursor: pointer;
     
 }
@@ -84,7 +84,7 @@ z-index: 22;
     border-bottom: 2px solid rgb(169, 161, 176);
 
 }
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 398px){
     .logo img {
         width: 100px;
         height: 70px;
@@ -104,10 +104,10 @@ z-index: 22;
         height: 30px;
         width: 200px;}
         .cart{
-            margin: -59px -130px
+            margin: -13px -239px;
         }
         .sign{
-             margin: 0px 60px;
+             margin: -4px 102px;
         }
         
         
@@ -145,7 +145,7 @@ z-index: 22;
     display: none;
 }
 
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 398px){
     .nav,.home{
         display: none;
         background-color:#6b4b2f ;
@@ -163,8 +163,8 @@ z-index: 22;
         background-color: #6b4b2f ;
     }
     
-    .carousel{
-    width: 470px;
+    .carousel img{
+    width: 489px;
     height: 105px;
 }
    
@@ -189,8 +189,8 @@ z-index: 22;
 }
 .lookitem img{
     display: inline-block;
-    height: 240px;
-    width: 230px;
+    height: 195px;
+    width: 138px;
    
 } 
 .lookitem{
@@ -216,13 +216,13 @@ z-index: 22;
     color: red;
     box-shadow: 10px 5px 5px #b79494;
 }
-@media only screen and (max-width: 490px){
+@media only screen and (max-width: 398px){
     .more{
         margin-left: 100px;
     }
     .lookitems img{
-        height: 144px;
-        width: 156px;
+        height: 160px;
+        width: 124px
        
     } 
     .lookitem{
@@ -232,10 +232,7 @@ z-index: 22;
     .look1{
         padding: 0px;
     }
-    .lookitem img{
-        height: 230px;
-        width: 193px;
-    }  
+     
     
 
 }
@@ -256,7 +253,7 @@ z-index: 22;
     display: inline-block;
     border: 2px solid black;
     height: 90%;
-    width: 44%;
+    width: 43%;
     float: right;
     margin: 10px;
     padding: 10px;
@@ -268,9 +265,20 @@ z-index: 22;
     display: inline-block;
     margin: 5px;
  }
- @media only screen and (max-width: 490px){
+ @media only screen and (max-width: 398px){
     .last{
         height: 250px;
     }
     
  }
+ @media only screen and (min-width: 398px) && (max-width:989px){
+    .nav a {
+        margin-left: 76px;
+    }
+    .searchbar {
+        margin-left: 0px;
+    }
+    .searchbar input {
+        width: 303px;
+    }
+    }
