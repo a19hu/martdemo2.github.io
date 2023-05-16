@@ -190,7 +190,7 @@ z-index: 22;
     display: inline-block;
     margin: 5px;
  }
- @media only screen and (max-width: 428px){
+ @media only screen and (max-width: 498px){
     .last{
         height: 250px;
     }
