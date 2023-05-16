@@ -190,7 +190,7 @@ z-index: 22;
     display: inline-block;
     margin: 5px;
  }
- @media only screen and (max-width: 488px){
+ @media only screen and (max-width: 498px){
     .last{
         height: 250px;
     }
@@ -244,7 +244,7 @@ z-index: 22;
     }
     .lookitems img{
         height: 160px;
-        width: 124px
+        width: 156px
        
     } 
     .lookitem{
@@ -257,28 +257,4 @@ z-index: 22;
     
  }
   
- @media only screen and (max-width: 415px) {
-    .nav{
-        background-color: #fc1f23 ;
-     }
-    }
-    @media only screen and (max-width: 408px) {
-        .nav{
-            background-color: #09c97c ;
-         }
-        }
-@media only screen and (max-width: 418px) {
-            .nav{
-                background-color: #b9e51a ;
-             }
-}  
-@media only screen and (max-width: 428px) {
-    .nav{
-        background-color: #1706b4 ;
-     }
-} 
-@media only screen and (max-width: 438px) {
-    .nav{
-        background-color: #0672a3 ;
-     }
-}  
+ 
