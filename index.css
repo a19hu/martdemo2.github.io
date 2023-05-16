@@ -84,34 +84,6 @@ z-index: 22;
     border-bottom: 2px solid rgb(169, 161, 176);
 
 }
-@media only screen and (max-width: 398px){
-    .logo img {
-        width: 100px;
-        height: 70px;
-     }
-     .flag{
-        display: none;
-     }
-     .searchbar{
-        margin-left: 0px; 
-    }
-    .searchbar img{
-        height: 25px;
-        width: 30px;
-        
-    }
-    .searchbar input{
-        height: 30px;
-        width: 200px;}
-        .cart{
-            margin: -13px -239px;
-        }
-        .sign{
-             margin: -4px 102px;
-        }
-        
-        
-}
              /* list*/
 .nav{
     background-color: #6b4b2f ;
@@ -143,31 +115,6 @@ z-index: 22;
 }
 .hidden{
     display: none;
-}
-
-@media only screen and (max-width: 398px){
-    .nav,.home{
-        display: none;
-        background-color:#6b4b2f ;
-        border: none;
-    }
-    .nav1 a{
-        list-style: none;
-        text-decoration: none;
-        color: white;
-        font-weight:400;
-        margin-left: 190px;
-    }
-    .hidden{
-        display:grid;
-        background-color: #6b4b2f ;
-    }
-    
-    .carousel img{
-    width: 489px;
-    height: 105px;
-}
-   
 }
   /*  items*/
 .look h1, .look1 h1{
@@ -216,28 +163,6 @@ z-index: 22;
     color: red;
     box-shadow: 10px 5px 5px #b79494;
 }
-@media only screen and (max-width: 398px){
-    .more{
-        margin-left: 100px;
-    }
-    .lookitems img{
-        height: 160px;
-        width: 124px
-       
-    } 
-    .lookitem{
-        margin: 12px 10px;
-        padding: 10px;
-    }
-    .look1{
-        padding: 0px;
-    }
-     
-    
-
-}
-
-
   /*  last */    
   .last{
     background-color: rgb(84, 135, 230);
@@ -265,12 +190,73 @@ z-index: 22;
     display: inline-block;
     margin: 5px;
  }
- @media only screen and (max-width: 398px){
+ @media only screen and (max-width: 408px){
     .last{
         height: 250px;
     }
+    .logo img {
+        width: 100px;
+        height: 70px;
+     }
+     .flag{
+        display: none;
+     }
+     .searchbar{
+        margin-left: 0px; 
+    }
+    .searchbar img{
+        height: 25px;
+        width: 30px;
+        
+    }
+    .searchbar input{
+        height: 30px;
+        width: 200px;}
+        .cart{
+            margin: -13px -239px;
+        }
+        .sign{
+             margin: -4px 102px;
+        }
+        .nav,.home{
+            display: none;
+            background-color:#6b4b2f ;
+            border: none;
+        }
+        .nav1 a{
+            list-style: none;
+            text-decoration: none;
+            color: white;
+            font-weight:400;
+            margin-left: 190px;
+        }
+        .hidden{
+            display:grid;
+            background-color: #6b4b2f ;
+        }
+        
+        .carousel img{
+        width: 489px;
+        height: 105px;
+    }
+    .more{
+        margin-left: 100px;
+    }
+    .lookitems img{
+        height: 160px;
+        width: 124px
+       
+    } 
+    .lookitem{
+        margin: 12px 10px;
+        padding: 10px;
+    }
+    .look1{
+        padding: 0px;
+    }
     
  }
+  
  @media only screen and (max-width: 415px) {
     .nav{
         background-color: #fc1f23 ;
@@ -295,4 +281,4 @@ z-index: 22;
     .nav{
         background-color: #0672a3 ;
      }
-}   
+}  
