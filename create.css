@@ -89,3 +89,9 @@ h1{
  background-color: #1e5bcc;
    
 }
+@media only screen and (max-width: 498px){
+.head {
+    width: 70%;
+    margin: 29% 35%;
+}
+}
